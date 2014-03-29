@@ -44,7 +44,8 @@ class Config(object):
         self.update_watch()
 
     def parse_command_line(self, command_args=None):
-        parser = ArgumentParser(description="Automatic test runner for TDD")
+        parser = ArgumentParser(
+            prog="testrunner", description="Automatic test runner for TDD")
         parser.add_argument("-r", help="Test runner", dest="runner")
         parser.add_argument("-c", help="Config file", dest="config")
         parser.add_argument("-d", help="Dir/file to watch", dest="dir")

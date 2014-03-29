@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name="Test Runner",
+    name="testrunner",
     version="0.1",
     author="Karol Duleba",
     author_email="mr.fuxi@gmail.com",
