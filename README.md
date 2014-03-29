@@ -35,4 +35,4 @@ Command line options:
 By default module is looking for local config file in current directory.
 This can be modified using command line option `-c`
 
-Options in local config are the same as in testrunner.default_config
+Options in local config are the same as in [default_config](testrunner/default_config.py)
